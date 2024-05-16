@@ -8,7 +8,10 @@
 int main(){
     std::string str;
     std::cout << "Enter your name: " << std::flush;
-    std::cin >> str;
+    //The standard std::cin can only afford one word to the variable
+    //This will cause issue when there are more than one word in the name
+    //So use a standard library function called getline defined in string library
+    std::getline(std::cin,str);
     std::cout << "Nice to meet you, " << str << "!" << std::endl;
 
     std::cout << std::endl << std::endl;
