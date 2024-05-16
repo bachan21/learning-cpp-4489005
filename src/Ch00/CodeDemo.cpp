@@ -1,6 +1,7 @@
 // Learning C++ 
 // Exercise 00_03
 // Using the exercise files on GitHub, by Eduardo Corpeño 
+// Adding a new comment, understood std::flush
 
 #include <iostream>
 
